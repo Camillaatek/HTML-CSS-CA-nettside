@@ -57,6 +57,7 @@ input[type=text] {
 
 .navbar a {
     color: #0A3641;
+    text-decoration: none;
 }
 
 nav {
