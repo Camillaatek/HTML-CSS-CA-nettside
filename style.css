@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns:0.5fr 1fr 1fr 1fr;
+}
+
+header {
+    height: 193px;
+    width: 100%;
+    background: #ffffff;
+}
+
+.header-person a { 
+    font-size: 18px;
+    color: black;
+}
+
+input[type=text] {
+    width: 130px;
+    height: 50px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 100%;
+  }
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 15px 0px 0px 0px;
+}
+
+.logo img {
+    width: 300px
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-size:  x-large;
+}
+
+.navbar a {
+    color: #0A3641;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0A3641;
+    width: 100%;
+    margin: auto;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+
+}
+
+nav a {
+    display: inline-block;
+color: rgb(255, 255, 255);
+padding: 14px 30px;
+text-decoration: none;
+margin: 0;
+text-transform: capitalize;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer-box {
+    width: 1920px;
+    height: 143px;
+    text-align: center;
+    background: #0A3641;
+    color: white;
+}
+
+.footer-third{
+color: white;
+font-size: 10px;
+}
+
+.footer-third a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
