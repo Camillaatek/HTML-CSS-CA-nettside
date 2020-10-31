@@ -149,15 +149,192 @@ nav a:hover {
 
 /*category site*/
 
+.categorysite {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+.category-container {
+    display: grid;
+    grid-template-columns: 1fr 0.2fr;
+}
+
+.categorybox a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.categorybox h1 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.categorybox2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.pagecontainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.pagebox h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
+.btncategory {
+    border: black solid 1px;
+    background-color: white;
+    padding: 7px;
+    width: 157px;
+    margin: 15px;
+}
 
 /*product site*/
+
+.productsite {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.productpic {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.productinfo h1 {
+    padding: 40px 0px 0px 0px;
+}
+.infobox2 {
+    background-color: rgb(192, 192, 192);
+    width: 400px;
+    height: 100px;
+    margin: 5px;
+}
+
+.btnproduct1 {
+    
+    width: 400px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: black solid 1px;
+}
+
+.btnproduct2 {
+    width: 400px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    background-color: #0A3641;
+    border: none;
+}
+
+.infobox2 p {
+    margin: 10px;
+}
 
 
 /*checkout page*/
 
+.checkoutsite {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+.paymentbox {
+    background-color: rgb(255, 255, 255);
+    border: rgb(141, 141, 141) solid 2px;
+    width: 600px;
+    height: 250px;
+    margin: 50px;
+}
+
+.paymentbox p {
+    padding: 25px 0px 0px 0px;
+    margin: 10px;
+}
+
+.checkoutpay {
+margin: 5px;
+height: 35px;
+}
+
+.checkoutpay1 {
+    margin: 5px;
+    height: 35px;
+}
+
+.btncheckout {
+    width: 600px;
+    height: 30px;
+    margin: 35px;
+    padding: 5px;
+    color: white;
+    background-color: #0A3641;
+    border: none;
+}
+
+.orderbox {
+    height: 285px;
+    width: 300px;
+    background-color: rgb(221, 221, 221);
+    margin: 50px;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.line1 {
+    background-color: black;
+    height: 1px;
+    width: 200px;
+}
+
+.line2 {
+    background-color: black;
+    height: 1px;
+    width: 200px;
+}
 /*checkout success page*/
 
+.confirmed-container {
+    height: 300px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+    display: grid;
+    grid-template-rows: 1fr 0.4fr 0.4fr 0.5fr;
+}
+
+.confirmed-container h1, p {
+    color: rgb(0, 0, 0);
+}
+
+.confirmed-container h1 {
+    font-style: italic;
+}
+
+.btnsuccess {
+    background-color: #0A3641;
+    color: white;
+    border: none;
+}
 
 /*about us page*/
 
@@ -172,4 +349,67 @@ nav a:hover {
 .textbox p {
     padding: 10px 70px 200px 70px;
 }
+
 /*contact us page*/
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/fall\ wallpaper\ 063\ -\ 1500x1000-768x512.png);
+}
+
+.box1 {
+    background-color: #ffffff62;
+    width: 30%;
+    padding: 10px 10px 10px 10px;
+    margin: 60px;
+}
+
+.text1 {
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.text2 {
+    text-align: center;
+}
+
+.input, .text {
+text-align: center;
+margin: 10px;
+
+}
+
+.btn3 {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
+
+input[type=text3] {
+    width: 350px;
+    height: 1px;
+    padding: 20px;
+    margin: 1px;
+}
+
+input[type=text4] {
+    width: 350px;
+    height: 1px;
+    padding: 20px;
+    margin: 1px;
+}
+
+input[type=text5] {
+    width: 350px;
+    height: 150px;
+    padding: 20px;
+    margin: 1px;
+}
